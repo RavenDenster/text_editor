@@ -12,8 +12,8 @@ public:
     void run();
 
 private:
-    text_editor::rope myRope;
-    text_editor::CommandManager cmdManager;
+    rope myRope;
+    CommandManager cmdManager;
 
     void processCommand(const std::string& command);
 

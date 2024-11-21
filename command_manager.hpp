@@ -12,6 +12,6 @@ public:
     
 private:
     std::vector<std::unique_ptr<Command>> history_;
-    int current_ = -1; // Устанавливаем текущую команду на -1
+    int current_ = -1;
 };
 }
